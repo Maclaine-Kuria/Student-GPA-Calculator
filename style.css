@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #dfd8d8;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.course-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+input, select {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+#gpa-result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
