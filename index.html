@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+    <h1>Student GPA Calculator</h1>
+    </header>
+     <main>
+    <section>
+      <form id="gpa-form" novalidate>
+        <fieldset>
+          <legend>Enter Course Details</legend>
+          <div id="courses-container"
+            <div class="course-row">
+              <label for="course1">Course Name:</label>
+              <input type="text" id="course1" name="course" required>
+
+              <label for="grade1">Grade:</label>
+              <select id="grade1" name="grade" required>
+                <option value="">Select Grade</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+              </select>
+            </div>
+
+            <div class="course-row">
+              <label for="course2">Course Name:</label>
+              <input type="text" id="course2" name="course" required>
+
+              <label for="grade2">Grade:</label>
+              <select id="grade2" name="grade" required>
+                <option value="">Select Grade</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+              </select>
+            </div>
+
+            <div class="course-row">
+              <label for="course3">Course Name:</label>
+              <input type="text" id="course3" name="course" required>
+
+              <label for="grade3">Grade:</label>
+              <select id="grade3" name="grade" required>
+                <option value="">Select Grade</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="buttons">
+          <button type="button" id="add-course">Add Another Course</button>
+          <button type="button" id="calculate-gpa">Calculate GPA</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="gpa-result" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 USIU-Africa GPA Tool</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+</html>
